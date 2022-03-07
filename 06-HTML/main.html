@@ -4,67 +4,428 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 1 LaunchX</title>
+    <title>Elementos compuestos</title>
 </head>
 <body>
     <!-- Headings -->
     <h1>HIMAWARI PASTELERIA</h1>
-    <h2>Menu de pasteles</h2>
-    <h3>PASTEL ALEMÁN</h3>
-
+    <h2>Menu de pasteles</h2>   
+<div class="pastel_aleman">
+    <input type="checkbox" id="pastel1" name="aleman" value="aleman">
+    <label for="aleman">PASTEL ALEMAN</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-aleman-1.jpg" alt="Pastel aleman" width="450px" height="350px">
     <!-- Parrafos -->
     <p>Elaborado con nuestro inigualable pan de chocolate, está cubierto y relleno de un delicioso betún a base de coco rayado y con leche quemada, espolvoreado en la parte superior con nuez en trocitos. Si te gusta el coco, es la opción perfecta para ti, ¡Pruébalo!
         $230</p>
-
-    <p>Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 Parrafo 2 </p>
-
-    <!-- Links / Enlaces -->
-    <a href="C:\Users\Jair\Documents\LaunchX-InnovaccionVirtual\FrontEnd\06-HTML\imagenes" target="blank">ps-aleman-1</a>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
     <br>
-
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div>
+</div></details>
+<div class="pastel_choco_aleman">
+    <input type="checkbox" id="pastel2" name="choco_aleman" value="choco_aleman">
+    <label for="pastel2">PASTEL CHOCO ALEMAN</label><br>
     <!-- Imágenes -->
-    <img src="https://i.imgur.com/84QT6os.jpeg" alt="Perritos lindos" width="350px" height="350px">
-
-    <!-- Tablas -->
-    <table>
-        <tr>
-            <th>Compañía</th>
-            <th>Contacto</th>
-            <th>País</th>
-        </tr>
-        <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-    </table>
-
-    <!-- Listas -->
-    <ul>
-        <li>Café</li>
-        <li>Arroz</li>
-        <li>leche</li>
-        <li>huevos</li>
-    </ul>
-
-    <ol>
-        <li>Alumno1</li>
-        <li>Alumno2</li>
-        <li>Alumno3</li>
-    </ol>
-
-    <dl>
-        <dt>Enchiladas</dt>
-        <dd>- Tortilla frita con salsa, rellena de pollo</dd>
-        <dt>Molletes</dt>
-        <dd>- Bolillo con frijoles y queso</dd>
-
-    </dl>
-
+    <img src="imagenes/ps-choco-aleman.jpg" alt="Pastel aleman" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Pan marmoleado cubierto en los lados por nuestro delicioso betún de chocolate, y arriba por el betún coco y leche quemada del pastel Alemán, con un ligero toque de chocolate líquido y nuez. Una delicia que no puedes dejar de probar.
+        $230</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_cubano">
+    <input type="checkbox" id="pastel3" name="cubano" value="cubano">
+    <label for="pastel3">PASTEL CUBANO (O GANSITO)</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-cubano-1.jpg" alt="Pastel aleman" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Elaborado con nuestro delicioso pan de vainilla casero, relleno de crema de vainilla y mermelada de fresa; está cubierto en la parte exterior de betún de chocolate oscuro y granillo de chocolate. Una opción mas para los amantes del chocolate.
+        $220</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_diplomatico">
+    <input type="checkbox" id="pastel5" name="diplomatico" value="diplomatico">
+    <label for="pastel5">PASTEL DIPLOMÁTICO (O IMPOSIBLE)</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-diplomatico-2.jpg" alt="Pastel aleman" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Elaborado a baño María, consiste de dos capas: nuestro incomparable pan de chocolate en la parte inferior y arriba una capa de delicioso flan de vainilla; este exquisito pastel en forma de rosca está acabado con un toque de nuez, cajeta y cerezas.
+        $250</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_milky_way">
+    <input type="checkbox" id="pastel6" name="milky" value="milky">
+    <label for="pastel6">PASTEL MILKY WAY</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-milky-way-1-1.jpg" alt="Pastel milky Way" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Pastel en forma de rosca con nuestro delicioso pan de chocolate cubierto de nuestro betún especial de queso crema y chocolates Milky Way derretidos, adicionando con nuez en trocitos en la parte superior. Si amas el chocolate, no te lo puedes perder.
+        $300</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_rosca_chica">
+    <input type="checkbox" id="pastel7" name="rosca_chica" value="rosca_chica">
+    <label for="pastel6">PASTEL ROSCA CHICA</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-rosca-chica-1.jpg" alt="rosca chica" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Esta es la especialidad de la casa… está elaborada con nuestro insuperable pan de vainilla con sabor casero, cubierto del delicioso betún de chocolate (receta exclusiva) y espolvoreado con ricos trocitos de nuez. ¡En definitiva la debes probar!
+        $150</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_rosca_grande">
+    <input type="checkbox" id="pastel8" name="rosca_grande" value="rosca_grande">
+    <label for="pastel8">PASTEL ROSCA GRANDE</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-rosca-grande-1.jpg" alt="rosca grande" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Esta es la especialidad de la casa… cuenta con nuestro inigualable pan de vainilla casero a dos capas cubierto y relleno de un delicioso betún de chocolate y acabado en la parte superior con nuez espolvoreada. ¡Definitivamente la debes probar!
+        $300</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_selva_negra">
+    <input type="checkbox" id="pastel9" name="selva_negra" value="selva_negra">
+    <label for="pastel9">PASTEL SELVA NEGRA</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/ps-selva-negra-1.jpg" alt="rosca grande" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Delicioso pan sabor chocolate ligeramente humedecido con jarabe de cerezas, relleno de crema chantilly con trocitos de nuez y cubierto de chantilly con rico jarabe líquido y granillo de chocolate, nuez y cerezas… ¡Gran sabor que no te debes perder!
+        $250</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div class="pastel_oreo">
+    <input type="checkbox" id="pastel9" name="oreo" value="oreo">
+    <label for="pastel10">PASTEL OREO</label><br>
+    <!-- Imágenes -->
+    <img src="imagenes/pastel-oreo-900x600-1.jpg" alt="oreo" width="450px" height="350px">
+    <!-- Parrafos -->
+    <p>Pastel de vainilla, cremoso, con trocitos de las irresistibles galletas OREO, adicionado en la parte superior con galletas OREO. Si eres amante del delicioso sabor de la vainilla y chocolate no te lo puedes perder.
+        $230</p>
+        <div class="decoracion">
+            <details> <summary>Decoracion</summary>
+ <div> <label for="decoracion">Primer Adorno</label>
+       <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+    </select><br><br>
+</div>
+<div> <label for="decoracion">Segundo Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div> <label for="decoracion">Tercer Adorno</label>
+    <select id="decoracion" name="decoracion"><br>
+        <option value="ninguno">ninguno </option>
+        <option value="cerezas">cerezas $23</option>
+        <option value="chocolate">barra de chocolate $60</option>
+        <option value="mango">mango $34</option>
+        <option value="fresa">fresa $55</option>
+ </select><br><br>
+</div>
+<div>
+    <label for="mensaje_pastel"> Escribe el mensaque que tendra el pastel $15</label>
+    <br>
+    <input type="text" id="mensaje_pastel" name="mensaje_pastel">
+    <br><br>
+</div>
+</div></details>
+</div>
+<div>
+    <input type="button" id="pedido" name="pedido" value="Agregar pedido al carrito" onclick="alert('Su pedido se agrego al carrito');"><br><br>
+</div>
+<hr>
+<div>
+    <h2>Himawari pastelería</h2>
+    <p>Himawari Pastelería, S.A. de C.V. es una empresa 100% regiomontana. La tradición se ha hecho por <strong><span style="font-family: 'Amatic SC';"><span class="slogan">NUESTROS PASTELES CON SABOR CASERO</span></span></strong>.</p>
+    <h2>Servicio a Domicilio</h2>
+    <p>Realiza y recibe tus pedidos sin necesidad de moverte de casa ni perder tu valioso tiempo. <a rel="noopener noreferrer" href="https://github.com/JairCoronado?tab=repositories" target="_blank;">Servicio a Domicilio</a></p>
+    <h1>Horario en Sucursales</h1>
+    <p>Lunes a Sábado de 8:00 AM a 9:00 PM<br> Domingos de 9:00 AM a 7:00 PM<br> <a href="https://github.com/JairCoronado?tab=repositories">Sucursales</a></p>
+</div>
 </body>
 </html>
